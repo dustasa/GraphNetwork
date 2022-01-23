@@ -1,0 +1,30 @@
+name: word2vec
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+
+  # Dev tools
+  - setuptools
+  - setuptools-scm
+  - pylint
+  - flake8
+  - black
+  - isort
+  - twine
+  - wheel
+
+  # Package deps
+  - numpy>=1.9.2
+  - joblib
+
+  # Testing
+  - pytest
+  - pytest-cov
+
+  # Examples
+  - notebook
+  - jupyterlab
+  - scikit-learn
+  - nltk
